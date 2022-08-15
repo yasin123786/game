@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section-p1{
+  padding: 40px 60px;
+}
+.section-m1 {
+margin: 60px 0;
+}
+  .wrapper{
+    width: 860px;
+  }
+  .wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+  }
+  .wrapper ul li{
+    background: #262626;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: big john;
+  }
+  .wrapper ul li:hover{
+    background: crimson;
+  }
+  .wrapper ul{
+    margin-left: 150ch;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+  .wrapper ul li a{
+      text-decoration: none;
+      color: white;
+  }
+  .logo{
+      width: 20ch;
+      margin: 10px 10px;
+  }.rh{
+    width: 80ch;
+    margin-left: 59ch;
+    margin-top: 2ch;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  footer .logo{
+    margin-bottom: 30px;
+  }
+  footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+  footer p{
+    font-size: 13px;
+    padding: 0 0 8px 0;
+  }
+  footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+  }
+  .hr{
+    margin-left: 47.5ch;
+    margin-top: 10ch;
+  }
+  .n-g{
+    margin-left: 34.5ch;
+  }
+  .img-1{
+    width: 100ch;
+    height: 600px;
+    margin-left: 48ch;
+    margin-top: 2ch;
+  }
+  .down{
+    margin-left: 94ch;
+    border: 1px solid #454689;
+    margin-right: 90ch;
+    padding: 1ch 3ch;
+    background-color:  #454689;
+}
+.down a{
+    text-decoration: none;
+      color: white;
+      margin-top: 2ch;
+  }
+  @media (max-width: 1400px){
+     .n-g{
+       margin-left: 40ch; 
+    } 
+    .img-1{
+        margin-left: 36ch;
+    }
+    .rh{
+        margin-left: 48ch;
+    }
+    .down{
+        padding: 1ch 8ch;
+        font-size: 5ch;
+        margin-left: 28ch;
+    }
+    footer{
+        width: 0;
+        font-size: 0;
+      }
+      footer .col {
+        width: 0;
+        font-size: 0;
+      }
+      footer .logo{
+        width: 0;
+        font-size: 0;
+      }
+      footer h4{
+        width: 0;
+        font-size: 0;
+      }
+      footer p{
+        width: 0;
+        font-size: 0;
+      }
+      footer a{
+        width: 0;
+        font-size: 0;
+      }
+      .hr{
+        width: 0;
+        font-size: 0;
+      }
+  }
